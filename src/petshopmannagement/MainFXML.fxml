@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="petshopmannagement.MainFXMLController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="434.0" prefWidth="300.0" styleClass="left-form" stylesheets="@loginDesign.css">
+               <children>
+                  <Label layoutX="30.0" layoutY="167.0" text="PET SHOP MANNAGEMENT" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Tahoma Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fill="#f2f2f2" glyphName="PAW" layoutX="105.0" layoutY="128.0" size="8em" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="300.0" prefHeight="430.0" prefWidth="300.0" styleClass="right-form" stylesheets="@loginDesign.css">
+               <children>
+                  <Label layoutX="78.0" layoutY="158.0" text="WELCOME BACK! " textFill="#3a03ef">
+                     <font>
+                        <Font name="Tahoma Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="pass" layoutX="62.0" layoutY="263.0" prefHeight="30.0" prefWidth="220.0" promptText="password" stylesheets="@loginDesign.css" />
+                  <Button fx:id="loginbtn" layoutX="62.0" layoutY="308.0" mnemonicParsing="false" onAction="#adminLogin" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@loginDesign.css" text="Login" textFill="WHITE">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="close" layoutX="248.0" layoutY="4.0" minWidth="24.0" mnemonicParsing="false" onAction="#close" prefHeight="31.0" prefWidth="24.0" styleClass="close" stylesheets="@loginDesign.css" textFill="#1e1cff" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0" />
+                  <TextField fx:id="userid" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="62.0" layoutY="220.0" prefHeight="30.0" prefWidth="220.0" promptText="username" stylesheets="@loginDesign.css" />
+                  <FontAwesomeIconView fill="#3a03ef" glyphName="USER" layoutX="123.0" layoutY="127.0" size="8em" />
+                  <FontAwesomeIconView glyphName="CLOSE" layoutX="277.0" layoutY="23.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+   </padding>
+</StackPane>

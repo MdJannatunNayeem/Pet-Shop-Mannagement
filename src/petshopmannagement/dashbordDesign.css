@@ -1,0 +1,119 @@
+
+.top-from{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+}
+.semi-top{
+    -fx-background-color: #efefef;
+    -fx-border-color: #000;
+    -fx-border-width: .2px .4px .4px .4px;
+}
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.close:hover{
+    -fx-background-color: #fd0c0c;
+}
+.minimize{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.minimize:hover{
+    -fx-background-color: #bdbcb9;
+   
+}
+.nav-from{
+     -fx-background-color: linear-gradient(to bottom right,#291fe4,#f2f2f2);
+}
+.navbtn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-font-size:14px;
+    -fx-font-style:bold;
+    -fx-font-family:"Arial";
+    -fx-text-fill:#fff;
+    -fx-alignment: CENTER_LEFT;
+}
+
+
+.logout-btn{
+        -fx-background-color: #060cba;
+    -fx-cursor: hand;
+}
+.logout-btn:hover{
+      -fx-background-color: #fd0c0c;
+}
+.shadow{
+    -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.5),5,0,0,0);
+}
+.white-bg{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8px;
+}
+.card{
+    -fx-background-color:linear-gradient(to bottom right, #60a6fc,#f2f2f2);
+    -fx-background-radius: 4px;
+}
+.textfield{
+     -fx-background-color:transparent;
+    -fx-border-color: #000;
+    -fx-border-radius:4px;
+    -fx-font-family:"Tahoma";
+}
+.textfield:focused{
+    -fx-border-colour:linear-gradient(to bottom right, #4f937a,#6e2731);
+    -fx-border-width:1.8px;
+}
+.tableview{
+    -fx-background-color:transparent;
+    -fx-padding:0px;
+     -fx-border-colour:linear-gradient(to bottom right, #291fe4,#f2f2f2);
+    -fx-border-width:2px;
+}
+.tableview .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right,#291fe4,#f2f2f2);
+    -fx-background-inset:0 0 0 0;
+    -fx-background-radius:8px 8px 0px 0px;
+}
+.tableview .column-header, .filter{
+      -fx-background-color:transparent;
+      -fx-size:40px;
+}
+
+.tableview .column-header .lable{
+      -fx-text-fill:#fff;
+      -fx-font-family:"Arial";
+}
+.add-btn{
+     -fx-background-color:#4191fa; 
+       -fx-cursor: hand;
+    -fx-border-radius:8px;
+    -fx-font-family:"Arial";
+    -fx-font-size:14px;
+      -fx-text-fill:#fff;
+    
+}
+.add-btn:hover{
+    -fx-background-color:#f08b11;
+}
+.delete-btn{
+      -fx-background-color:#4191fa; 
+       -fx-cursor: hand;
+    -fx-border-radius:8px;
+    -fx-font-family:"Arial";
+    -fx-font-size:14px;
+      -fx-text-fill:#fff;
+}
+.delete-btn:hover{
+    -fx-background-color: #fd0c0c;
+}
+
+.allbtnlogo{
+    -fx-background-color:transparent;
+    -fx-cursor: hand;
+}
+.allbtnlogo:hover{
+    -fx-background-color: linear-gradient(to bottom right,#291fe4,#f2f2f2);
+}
