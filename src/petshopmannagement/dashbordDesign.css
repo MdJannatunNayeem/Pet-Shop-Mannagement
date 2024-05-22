@@ -72,6 +72,9 @@
      -fx-border-colour:linear-gradient(to bottom right, #291fe4,#f2f2f2);
     -fx-border-width:2px;
 }
+.tableview .table-column{
+    -fx-alignment: CENTER;
+}
 .tableview .column-header-background{
     -fx-background-color: linear-gradient(to bottom right,#291fe4,#f2f2f2);
     -fx-background-inset:0 0 0 0;
